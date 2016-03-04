@@ -1,0 +1,5 @@
+Quick Tips
+
+1. sorted_list = sorted(list)
+2. striped_str = str.strip()
+3. str = re.sub("\.|'| |;|,", '', str.strip().lower())
