@@ -6,3 +6,7 @@ In this github project, I include
 * Code practicen of leetcode
 
 Also practice the gibhub/git
+
+URLs:
+http://interactivepython.org/runestone/static/pythonds/index.html
+https://leetcode.com/problemset/algorithms/
