@@ -5,4 +5,6 @@ Quick Tips
 3. str = re.sub("\.|'| |;|,", '', str.strip().lower())
 4. str no reverse
 5. char_list = list(str)
-6. max_int = 2 ** 32 - 1 (!not! ^32)
+6. if postive: max_int = 2 ** 32 - 1 (!not! ^32); if negative: max_int = - 2**32
+7. str = str.strip().encode('utf8')
+8. ord(str[i]) - ord('0')
