@@ -5,3 +5,4 @@ Quick Tips
 3. str = re.sub("\.|'| |;|,", '', str.strip().lower())
 4. str no reverse
 5. char_list = list(str)
+6. max_int = 2 ** 32 - 1 (!not! ^32)
