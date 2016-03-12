@@ -11,3 +11,4 @@ Quick Tips
  9. // vs /, diff only in 3.0, // is float, / is int/floor div. no diff in 2.x
 10. dict={1:'I', 5:'V', 10:'X'...}
 11. l=[3,2,1]; l.reverse()
+12. list_roman = sorted(dict_int_roman.keys()); list_roman.reverse()
