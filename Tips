@@ -9,3 +9,4 @@ Quick Tips
  7. str = str.strip().encode('utf8')
  8. ord(str[i]) - ord('0')
  9. // vs /, diff only in 3.0, // is float, / is int/floor div. no diff in 2.x
+10. dict={1:'I', 5:'V', 10:'X'...}
