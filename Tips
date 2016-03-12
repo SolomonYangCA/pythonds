@@ -3,8 +3,11 @@ Quick Tips
  1. sorted() vs. list.sort()
  *  python list has built-in sort method - list.sort(), sort and modify the list in place;
  *  sorted() is a built-in function, build a new sorted list from iterable. 
+ 
  2. striped_str = str.strip()
- *  strip() returns a copy of stry
+ *  str.strip() returns a copy of stry
+ *  str.lower() returns a copy of str
+
  3. str = re.sub("\.|'| |;|,", '', str.strip().lower())
  4. str no reverse
  5. char_list = list(str)
