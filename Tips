@@ -1,5 +1,31 @@
 Quick Tips
 
-1. sorted_list = sorted(list)
-2. striped_str = str.strip()
-3. str = re.sub("\.|'| |;|,", '', str.strip().lower())
+ 1. sorted() vs. list.sort()
+ *  python list has built-in sort method - list.sort(), sort and modify the list in place;
+ *  sorted() is a built-in function, build a new sorted list from iterable. 
+ 
+ 2. striped_str = str.strip()
+ *  str.strip() returns a copy of stry
+ *  str.lower() returns a copy of str
+
+ 3. str = re.sub("\.|'| |;|,", '', str.strip().lower())
+ 
+ 4. str no reverse
+ 
+ 5. char_list = list(str)
+ 
+ 6. if postive: max_int = 2 ** 32 - 1 (!not! ^32); if negative: max_int = - 2**32
+ 
+ 7. str = str.strip().encode('utf8')
+ 
+ 8. ord(str[i]) - ord('0')
+ 
+ 9. // vs /, diff only in 3.0, // is float, / is int/floor div. no diff in 2.x
+ 
+10. dict={1:'I', 5:'V', 10:'X'...}
+
+11. l=[3,2,1]; l.reverse()
+
+12. list_roman = sorted(dict_int_roman.keys()); list_roman.reverse()
+
+13. res=ste(); res.add((1,2,3))
