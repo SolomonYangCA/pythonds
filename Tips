@@ -28,4 +28,6 @@ Quick Tips
 
 12. list_roman = sorted(dict_int_roman.keys()); list_roman.reverse()
 
-13. res=ste(); res.add((1,2,3))
+13. res=set(); res.add((1,2,3))
+
+14. reverse range: for i in range(len(nums)-2, -1, -1):
